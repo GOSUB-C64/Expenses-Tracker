@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,900;1,700&family=Roboto+Condensed:wght@300;500&family=Teko:wght@700&display=swap');
+
+* {
+    font-family: "Roboto Condensed","Arial";
+    font-weight: 300;
+    color: #fff;
+}
+
+body {
+    background-color: #333;
+}
+
+#expenses { 
+    /* color: #f00; */
+    border: 1px solid #fff;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+#amount{
+    border: 1px solid #fff;
+    background-color: #333;
+    border-radius: 5px;
+}
+
+.no-data {
+    border: 3px solid #f00 !important;
+}
+
+#header {
+    text-align: center;
+}
+
+#heading {
+    font-family: "Roboto Condensed","Arial";
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#expenses_input_container{
+    text-align: center;
+
+}
+
+#add-btn {
+    color: #333;
+    font-weight: 500;
+    border-radius: 5px;
+}
+
+#add-btn:hover {
+    background-color: #999;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}

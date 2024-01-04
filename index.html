@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Expenses Tracker</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div id="header">
+			<h2 id="date_header">Today's Date:</h2>
+			<h4 id="current_date"></h4>
+		</div>
+		<div id="heading">
+			<h1>Expenses Tracker</h1>
+		</div>
+		<div id="expenses_input_container">
+			<form>
+				<label for="expenses">Select an Expense:</label>
+				<select id="expenses" name="expenses">
+					<option value="Mortgage">Mortgage</option>
+					<option value="Electricity">Electricity</option>
+					<option value="Heating Oil">Heating Oil</option>
+					<option value="Food Groceries">Food Groceries</option>
+					<option value="Internet">Internet</option>
+					<option value="Phones">Phones</option>
+					<option value="Cigarettes">Cigarettes</option>
+					<option value="Alcohol">Alcohol</option>
+					<option value="Clothing">Clothing</option>
+					<option value="Electrical">Electrical</option>
+					<option value="Fast Food">Fast Food</option>
+					<option value="Taxis">Taxis</option>
+				</select>
+
+				<label for="amount">Enter Amount:</label>
+				<input
+					type="text"
+					name="amount"
+					id="amount"
+					class="no-data"
+					value="£"
+					required
+				/>
+
+				<label for="date">Enter Date:</label>
+				<input type="date" id="date" name="date" class="no-data" />
+
+				<button id="add-btn">Add Expense</button>
+			</form>
+		</div>
+		<script src="index.js"></script>
+	</body>
+</html>
